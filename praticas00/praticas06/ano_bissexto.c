@@ -3,8 +3,8 @@
 int main () {
     int ano = 0;
     
-    printf("Digite um ano: ")
-    scanf("")
+    printf("Digite um ano: ");
+    scanf("%i", &ano);
 
     
 int ano_multiplo_4 = ano % 4 == 0;
